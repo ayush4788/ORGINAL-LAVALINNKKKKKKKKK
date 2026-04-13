@@ -11,6 +11,11 @@ lavalink:
 plugins:
   youtube:
     enabled: true
+    clients:
+      - WEB
+      - ANDROID
+      - WEB_EMBEDDED_PLAYER
+      - MUSIC
 
 logging:
   level:
