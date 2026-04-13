@@ -1,0 +1,17 @@
+server:
+  port: ${PORT}
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: false
+
+plugins:
+  youtube:
+    enabled: true
+
+logging:
+  level:
+    root: WARN
